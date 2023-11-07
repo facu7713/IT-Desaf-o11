@@ -1,0 +1,223 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #0d827c ;
+    font-family: 'Kenia', sans-serif;
+    color: #000a0a;
+}
+h2{
+    font-family: 'Pacifico', cursive;
+}
+h3{
+    font-family: 'Kenia', sans-serif;
+}
+nav{
+    width: 100%;
+    font-family: 'Bebas Neue', sans-serif;
+    background-color: #a25d5d;
+    color: #000000;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    list-style: none;
+    padding: 20px;
+    display: inline-block;
+}
+nav ul li a{
+    display: block;
+    color: #FAF0E6;
+    padding: 10px;
+    text-decoration: none;
+}
+nav ul li:hover{
+    background-color: #5C5470;
+    color: #9F91CC;
+}
+header{
+    width: 100%;
+    height: 350px;
+    background-image: url(./imagenes/pexels-mateusz-dach-450035.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+section{
+    width: 90%;
+    padding: 20px 15px 0 5px;
+    margin: auto;
+    text-align: justify;
+}
+p{
+    margin: 16px 0;
+    line-height: 150%;
+}
+footer{
+    width: 100%;
+    height: 50px;
+    background-color: #17594A;
+    color: #A2FF86;
+    text-align: center;
+    line-height: 50px;
+}
+.titulo_principal{
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    top: 100px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.titulo_principal h1{
+    font-family: 'Rubik Iso', cursive;
+    font-size: 42px;
+    color: #FFF;
+    text-shadow: 1px 1px 5px black;
+    margin: 20px 0 auto;
+    text-align: center;
+}
+#boton{
+    width: 90px;
+    height: 35px;
+    background-color: #3EAD47;
+    border-radius: 5px;
+    border: 2px solid #FFF;
+    position: fixed;
+    bottom: 55px;
+    right: 15px;
+    z-index: 200;
+    transition: all 1s;
+}
+.contenedor_principal{
+    width: 100%;
+    height: 500px;
+}
+.contenedor_tarjetas{
+    display: flex;
+    justify-content: center;
+}
+.tarjeta{
+    width: 300px;
+    height: 490px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
+}
+.uno{
+    background-image: url("./imagenes/pexels-jeshootscom-530024.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.dos{
+    background-image: url("./imagenes/pexels-bich-tran-1714341.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.tres{
+    background-image: url("./imagenes/pexels-olia-danilevich-4974914.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.cuatro{
+    background-image: url("./imagenes/pexels-pok-rie-1432675.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.seccion-intro{
+    background-color: darkcyan;
+    width: 100%;
+}
+.intro{
+    width: 70%;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+.intro-titulo{
+    font-size: 100px;
+    font-weight: bold;
+}
+.intro-subtitulo{
+    font-size: 90px;
+}
+.intro-detalle{
+    font-size: 60px;
+    margin: 20px 0;
+    color: #6ecddd;
+    font-weight: bold;
+}
+.intro-img{
+    width: 100%;
+    width: 370px;
+}
+.pie-pagina{
+    width: 100%;
+    height: 300px;
+    background-color: #22558d;
+    color: #FFF;
+    line-height: 50px;
+}
+.pie-superior{
+    width: 70%;
+    height: 300px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+.logo{
+    line-height: normal;
+    letter-spacing: 5px;
+}
+.pie-inferior{
+    background-color: #15608b7e;
+    text-align: center;
+}
+.red-social a{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 15px;
+    width: 40px;
+    height: 40px;
+    line-height: 45px;
+    color: #000;
+    margin: 0 5px;
+    background-color: #8ECDDD;
+    text-align: center;
+    border-radius: 50%;
+    transition: all 0.75 ease-in-out;
+}
+.red-social a:hover{
+    text-decoration: none;
+    font-size: 25px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background-color: #000;
+    color: #8ECDDD;
+}
+.formulario{
+    width: 60%;
+    margin: 50px auto;
+    padding: 15px;
+    border: 1px solid rgb(43, 80, 226) ;
+    background: rgb(54, 103, 116);
+    color: white;
+}
+input, textarea{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0px;
+    border: 1px solid #ccc;
+}

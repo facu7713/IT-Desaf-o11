@@ -1,0 +1,28 @@
+.guardar{
+    width: 100%;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    margin: 8px 0px;
+    border: none;
+    cursor: pointer;
+    transition: all 1s;
+}
+.guardar:hover{
+    background-color: #044906;
+}
+.cancelar{
+    width: 100%;
+    font-size: 16px;
+    background-color: #fc9d9d;
+    color: white;
+    padding: 12px 20px;
+    margin: 8px 0px;
+    border: none;
+    cursor: pointer;
+    transition: all 1s;
+}
+.cancelar:hover{
+    background-color: #fd5959;
+}
